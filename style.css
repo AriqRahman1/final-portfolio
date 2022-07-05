@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-image: url(images/background.jpg);
 }
 
 h1 {
@@ -28,31 +29,14 @@ h1 {
 .contact-button {
     text-decoration: none;
     background-image: linear-gradient(orange, red);
-    padding: 10px 40px;
+    padding: 10px 10px;
     border-radius: 5px;
     font-weight: 700;
     color: white;
 }
 
-.top-banner {
-    background-image: url(images/top-banner.png);
-    background-repeat: no-repeat;
-}
-
 .inspiration {
     color: orange;
-}
-
-.inspiration-opi {
-    background-image: url(images/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
-
-.experience {
-    background-image: url(images/exp-bg.png);
-    background-repeat: no-repeat;
-    background-position: left;
 }
 
 .experience-item {
@@ -78,4 +62,12 @@ h1 {
 
 footer p {
     text-align: center;
+}
+
+#about-me {
+    color: white;
+}
+
+#ulta {
+    color: white;
 }
